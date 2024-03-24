@@ -1,0 +1,335 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#maincontainer{
+    display:flex;
+    width:100%;
+    background: linear-gradient(#ffffff,#5228f5);
+}
+
+.menu{
+    height:100%;
+    transition:.3s;
+    background:#ffffff12;
+    padding: 20px 20px 20px 0;
+    width:85px;
+    box-shadow: 8px 0px 9px 0px #00000014;
+    backdrop-filter: blur(5px);
+    min-height: 100vh;
+}
+
+.menucontent{
+    list-style: none;
+    border-radius: 0px 30px 30px 0;
+    transition:.3s;
+    margin-bottom: 15px;
+    padding-left: 6px;
+    height:720px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display:flex;
+    align-items: center;
+    font-family: 'calibri';
+}
+
+img{
+    font-size: 25px;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 10px;
+    width:75px;
+}
+
+li:hover{
+    background: #efeded;
+}
+li span:nth-child(2){
+    display:none;
+}
+
+.menu:hover{
+    width: 42.4%;
+}
+
+.menu:hover li span:nth-child(2){
+    display:block;
+}
+
+
+/* Ascunde checkbox-ul */
+.checkboxCuvant {
+    display: none;
+  }
+  
+  .container {
+    position: relative;
+    display: inline-block;
+    margin-left: 60px;
+  }
+  
+  /* Ascunde tabelul la început */
+  .tabelAlegere {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f0f0f0;
+
+  }
+  
+  /* Afișează tabelul când checkbox-ul este bifat */
+  .checkboxCuvant:checked + .container .tabelAlegere {
+    display: table;
+  }
+  
+  /* Stilizare tabel */
+  table {
+    width: 183.5px;
+    border-collapse: collapse;
+  }
+  
+  table, td {
+    border: solid 0.1px rgb(215, 215, 215);
+  }
+
+  table{
+    background:#efeded;
+  }
+  
+  td {
+    padding: 8px;
+  }
+  
+  .cuvantContainer {
+    cursor: pointer;
+  }
+  
+  /* Afișează tabelul când cuvantContainer este la hover */
+  .cuvantContainer:hover + .container .tabelAlegere {
+    display: table;
+  }
+  input{
+    margin-left:15px;
+  }
+  
+
+
+  /* Ascunde checkbox-ul */
+.checkboxCuvant1 {
+    display: none;
+  }
+  
+  .container1 {
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom:15px;
+  }
+  
+  /* Ascunde tabelul la început */
+  .tabelAlegere1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f0f0f0;
+
+  }
+  
+  /* Afișează tabelul când checkbox-ul este bifat */
+  .checkboxCuvant1:checked + .container1 .tabelAlegere1 {
+    display: table;
+  }
+  
+  .cuvantContainer1 {
+    cursor: pointer;
+  }
+  
+  /* Afișează tabelul când cuvantContainer este la hover */
+  .cuvantContainer1:hover + .container1 .tabelAlegere1 {
+    display: table;
+  }
+
+
+/*pentru masina 2   */
+  .checkboxCuvant2 {
+    display: none;
+  }
+  
+  .container2 {
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom:15px;
+  }
+  
+  .tabelAlegere2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f0f0f0;
+
+  }
+  
+  .checkboxCuvant2:checked + .container2 .tabelAlegere2 {
+    display: table;
+  }
+  
+  .cuvantContainer2 {
+    cursor: pointer;
+  }
+  
+  .cuvantContainer2:hover + .container2 .tabelAlegere2 {
+    display: table;
+  }
+
+
+/*pentru masina 3   */
+  .checkboxCuvant3 {
+    display: none;
+  }
+  
+  .container3 {
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom:15px;
+  }
+  
+  .tabelAlegere3 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f0f0f0;
+
+  }
+  
+  .checkboxCuvant3:checked + .container3 .tabelAlegere3 {
+    display: table;
+  }
+  
+  .cuvantContainer3 {
+    cursor: pointer;
+  }
+  
+  .cuvantContainer3:hover + .container3 .tabelAlegere3 {
+    display: table;
+  }
+
+
+
+  /*pentru masina 4   */
+
+  .checkboxCuvant4 {
+    display: none;
+  }
+  
+  .container4 {
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom:15px;
+  }
+  
+  .tabelAlegere4 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f0f0f0;
+  }
+  
+  .checkboxCuvant4:checked + .container4 .tabelAlegere4 {
+    display: table;
+  }
+  
+  .cuvantContainer4 {
+    cursor: pointer;
+  }
+  
+  .cuvantContainer4:hover + .container4 .tabelAlegere4 {
+    display: table;
+  }
+
+
+
+/*masina 5     */
+  .checkboxCuvant5 {
+    display: none;
+  }
+  
+  .container5 {
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom:15px;
+  }
+  
+  .tabelAlegere5 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .checkboxCuvant5:checked + .container5 .tabelAlegere5 {
+    display: table;
+  }
+  
+  .cuvantContainer5 {
+    cursor: pointer;
+  }
+  
+  .cuvantContainer5:hover + .container5 .tabelAlegere5 {
+    display: table;
+  }
+
+
+
+/* masina 6     */
+  .checkboxCuvant6 {
+    display: none;
+  }
+  
+  .container6 {
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom:15px;
+  }
+  
+  .tabelAlegere6 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .checkboxCuvant6:checked + .container6 .tabelAlegere6 {
+    display: table;
+  }
+  
+  .cuvantContainer6 {
+    cursor: pointer;
+  }
+  
+  .cuvantContainer6:hover + .container6 .tabelAlegere6 {
+    display: table;
+  }
+
+  .background{
+    margin-left:50%;
+  }

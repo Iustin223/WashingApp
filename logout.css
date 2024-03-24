@@ -1,0 +1,57 @@
+
+
+body{
+    text-align: center;
+
+    
+
+margin-top: 200px;
+
+}
+
+#sure{
+    font-size: xx-large;
+    color: black;
+    letter-spacing: 2px;
+}
+
+#link{
+    text-decoration: none;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    background-color: #291477;
+    color: white;
+    width: 200px;
+    height: 60px;
+    border: 1px solid black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+   
+}
+
+#text{
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+    letter-spacing: 2px;
+   
+    padding: 5px;
+
+}
+
+#text:hover{
+    color:  rgb(14, 130, 224)
+}
+
+#link:hover{
+    background-color: #3E2B84;
+}
+.login1:hover{
+background-color: #3E2B84;
+}
+
+.login1{
+    background-color: #291477;
+    
+    
+}
